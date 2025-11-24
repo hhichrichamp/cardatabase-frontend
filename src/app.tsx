@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+
+import  { useState } from "react";
 import {Header} from "./pages/Header";
 import { Menu } from "./pages/Menu";
 import  {Footer } from "./pages/Footer";
