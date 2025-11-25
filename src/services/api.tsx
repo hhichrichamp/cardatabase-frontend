@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE = "https://cardatabase-backend-sag9.onrender.com";
+const BASE = import.meta.env.VITE_API_BASE_URL;
 
 export async function apiGet(path: string) {
   try {
